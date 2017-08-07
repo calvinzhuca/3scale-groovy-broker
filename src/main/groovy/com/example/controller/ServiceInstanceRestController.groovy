@@ -1,7 +1,7 @@
-package org.cloudfoundry.community.broker.mysql.controller
+package com.example.controller
 
-import org.cloudfoundry.community.broker.mysql.service.ServiceInstance
-import org.cloudfoundry.community.broker.mysql.service.ServiceInstanceService
+import com.example.service.ServiceInstance
+import com.example.service.ServiceInstanceService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.PathVariable

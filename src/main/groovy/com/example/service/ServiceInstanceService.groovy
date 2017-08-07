@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.broker.mysql.service
+package com.example.service
 
 
 import org.springframework.beans.factory.annotation.Autowired

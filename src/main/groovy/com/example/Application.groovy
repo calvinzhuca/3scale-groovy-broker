@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.broker.mysql
+package com.example
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan(basePackages = "org.cloudfoundry.community.broker.mysql")
+@ComponentScan(basePackages = "com.example")
 public class Application {
 
   public static void main(String[] args) {

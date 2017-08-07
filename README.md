@@ -11,7 +11,7 @@ To build the project
 
 The build command creates jar file with embedded tomcat container.
 ```
-java -jar build/libs/cf-mysql-java-broker-0.1.0.jar
+java -jar build/libs/3scale-groovy-broker-0.1.0.jar
 ```
 
 Configuration
@@ -31,4 +31,3 @@ Routes
 |/v2/service_instances/:id|DELETE|delete previously created database for this service|
 |/v2/service_instances/:id/service_bindings/:id|PUT|create user and grant privilege for the database associated with service.|
 |/v2/service_instances/:id/service_bindings/:id|DELETE|delete the user created previously for this binding.|
-
